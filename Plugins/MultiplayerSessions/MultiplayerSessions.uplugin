@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "MultiplayerSessions",
+	"Description": "A plugin for handling multiplayer",
+	"Category": "Other",
+	"CreatedBy": "Erfan Zameni",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "MultiplayerSessions",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"plugins": [
+
+		{
+			"name": "onlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"name": "onlineSubsystemSteam",
+			"Enabled": true
+		}
+	]
+}
